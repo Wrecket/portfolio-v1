@@ -19,14 +19,14 @@
     
     <!-- NAV START -->
     <header>
-        <nav class="navbar navbar-expand-xl sticky-top justify-content-end">
-            <div class="nav__item mx-3 my-3">
-                <a href="#about">About</a>
+        <nav class="navbar navbar-expand sticky-top justify-content-end">
+            <div class="nav__item mx-2 my-2">
+                <a class="" href="#about">About</a>
             </div>
-            <div class="nav__item mx-3 my-3">
+            <div class="nav__item mx-2 my-2">
                 <a href="#projects">Projects</a>
             </div>
-            <div class="nav__item mx-3 my-3">
+            <div class="nav__item mx-2 my-2">
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -34,94 +34,70 @@
     <!-- NAV END -->
 
 
-
-
-
-
-
-
-
-
     <!-- HERO START-->
-    <section class=" vh-100 d-flex align-items-center">
-        <div class="col-auto py-5">
-        <div class="row align-items-center">
-            <div class="col-sm-5 d-flex justify-content-center">
-                <div>
-                    <h1 class="text-center hero__h1">William Anderson</h1>
-                    <h2 class="text-center hero__h2">Front-end Developer</h2>
+    <section class="container vh-100 d-flex align-items-center justify-content-center">
+        <div class="col align-items-center mb-5 pb-5">
+            <div class="row align-items-center">
+                <div class="col-sm-5 d-flex py-5 justify-content-center">
+                    <div>
+                        <h1 class="text-center hero__h1">William Anderson</h1>
+                        <h2 class="text-center hero__h2">Front-end Developer</h2>
+                    </div>
+                </div>
+                
+                <div class="col-sm pb-5 px-5 hero__img">
+                    <img class="img-fluid" src="/img/hero1.png" alt="Computer Image">
                 </div>
             </div>
-            
-            <div class="col-sm hero__img">
-                <img src="/img/hero1.png" alt="Computer Image">
+
+            <div class="d-flex justify-content-center pt-4">
+                <a href="#projects"><button type="button" class="btn btn hero__button">See my Projects
+                </button></a>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <a href="#projects"><button type="button" class="btn hero__button">See my projects
-            </button></a>
-        </div>
-    </div>
     </section>
     <!-- HERO END-->
 
 
-
-
-
-
-
-
-
-
-
-
     <!-- ABOUT START -->
-    <section id="about" class="container">
-        <div>
-            <div class="about__title">
-                <h1 class="about__h1">About Me</h1>
-                <h2 class="about__h2">Here is my story.</h2>
+    <section id="about" class="container vh-100 d-flex flex-column justify-content-center">
+            <div class="py-3 about__title">
+                <h1 class="text-center about__h1">about me</h1>
             </div>
-            <div>
-                <img class="about_img" src="" alt="" srcset="">
+            <div class="py-3">
+                <img class="img-fluid about_img" src="/img/about.png" alt="" srcset="">
             </div>
-        </div>
-    </section>
+            <div class="py-3">
+                <p class="px-5 about__h2">Hi, I'm William. <br><br> I get a kick out of bringing value to people and businesses through their online presence.
+                </p>
+            </div>
+        </section>
     <!-- ABOUT END -->
 
 
+
+
+
+
     <!-- PROJECTS START -->
-    <section id="projects">
-        <div class="container">
-            <div class="project__card">
-                <div class="project__card__body">
-                    <div class="project__card__img"></div>
-                    <div class="project__card__title"></div>
-                    <div class="project__card__description"></div>
-                    <a class="project__card__link" href="http://"></a>
+    <section id="projects" class="container">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/img/project1.jpg" alt="Project 1 Image">
+                <div class="card-body">
+                <h5 class="card-title">AI Facial Recognition</h5>
+                <p class="card-text">Here is my first project.  I utilize a google API for facial recognition.</p>
+                <a href="https://github.com/wcanexus" class="git-icon"><img class="img-fluid" src="/img/github-icon02.png" alt=""> </a>
                 </div>
             </div>
-            <div class="project__card">
-                <div class="project__card__body">
-                    <div class="project__card__img"></div>
-                    <div class="project__card__title"></div>
-                    <div class="project__card__description"></div>
-                    <a class="project__card__link" href="http://"></a>
-                </div>
-            </div><div class="project__card">
-                <div class="project__card__body">
-                    <div class="project__card__img"></div>
-                    <div class="project__card__title"></div>
-                    <div class="project__card__description"></div>
-                    <a class="project__card__link" href="http://"></a>
-                </div>
-            </div><div class="project__card">
-                <div class="project__card__body">
-                    <div class="project__card__img"></div>
-                    <div class="project__card__title"></div>
-                    <div class="project__card__description"></div>
-                    <a class="project__card__link" href="http://"></a>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/img/project2.jpg" alt="Project 2 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Background randomizer</h5>
+                    <p class="card-text">Here's a fun javascript app that randomizes your background choice.</p>
+                    <div>
+                        <a href="https://github.com/wcanexus" class="btn btn-primary">Github</a>
+                    </div>
                 </div>
             </div>
         </div>

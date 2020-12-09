@@ -18,7 +18,13 @@ nav {
 }
 
 .nav__item {
-  font-size: 1.5vw;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav__item a {
+
+  /* color: #00D3AE !important; */
 }
 
 
@@ -27,21 +33,22 @@ nav {
 --------------------------------------------------------------*/
 
 .hero__h1 {
-  font-size: 5vw;
-  /* font-size: 2rem; */
+  font-size: 2rem;
   font-weight: 800;
 }
 
 .hero__h2 {
-  font-size: 2vw;
+  font-size: 1.3rem;
   /* font-size: 1rem; */
 }
 
-img {
-  width: 90%;
+.img-fluid {
+  max-width: 100% \9;
+  height: auto;
 }
 
 .hero__button {
+  font-weight: 400 !important;
   background-color: #00D3AE !important;
 }
 
@@ -51,18 +58,21 @@ img {
 --------------------------------------------------------------*/
 
 .about__h1 {
-  font-size: 1rem;
+  font-size: 3.2rem;
+  font-weight: 800;
 }
 
 .about__h2 {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
 
-
+.git-icon {
+  
+}
 
 
 
