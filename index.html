@@ -35,24 +35,20 @@
 
 
     <!-- HERO START-->
-    <section class="container vh-100 d-flex align-items-center justify-content-center">
-        <div class="col align-items-center mb-5 pb-5">
-            <div class="row align-items-center">
-                <div class="col-sm-5 d-flex py-5 justify-content-center">
-                    <div>
-                        <h1 class="text-center hero__h1">William Anderson</h1>
-                        <h2 class="text-center hero__h2">Front-end Developer</h2>
+    <section class="header__wrap container-fluid d-flex ">
+        <div class="header__inner-wrap">                
+                <div class="hero__img">
+                    <div class="header__name">
+                        <h1 class="hero__h1">
+                            <span class="header__name1">William Anderson</span><br>
+                            <span class="header__name2">Front-end Developer</span>
+                        </h1>
                     </div>
-                </div>
-                
-                <div class="col-sm pb-5 px-5 hero__img">
                     <img class="img-fluid" src="/img/hero1.png" alt="Computer Image">
                 </div>
-            </div>
 
-            <div class="d-flex justify-content-center pt-4">
-                <a href="#projects"><button type="button" class="btn btn hero__button">See my Projects
-                </button></a>
+            <div class="d-flex justify-content-center pt-3">
+                <a href="#projects"><button type="button" class="btn hero__button">See my Projects</button></a>
             </div>
         </div>
     </section>
@@ -60,18 +56,26 @@
 
 
     <!-- ABOUT START -->
-    <section id="about" class="container vh-100 d-flex flex-column justify-content-center">
-            <div class="py-3 about__title">
-                <h1 class="text-center about__h1">about me</h1>
+    <section id="about" class="container-fluid d-flex">
+        <div class="about__inner">
+            <div class="about__title">
+                <h1 class="about__h1 text-center">About Me</h1>
             </div>
-            <div class="py-3">
-                <img class="img-fluid about_img" src="/img/about.png" alt="" srcset="">
-            </div>
-            <div class="py-3">
-                <p class="px-5 about__h2">Hi, I'm William. <br><br> I get a kick out of bringing value to people and businesses through their online presence.
-                </p>
-            </div>
-        </section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="">
+                        <img class="img-fluid about_img" src="/img/about.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <Lorem class="about__desc"><span class="white">Hi</span>, I'm <span class="white">William.</span> <br><br> I get a kick out of bringing value to people and businesses through their online presence.
+                    <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nihil laborum quisquam asperiores exercitationem! Cupiditate minus quam quos earum sequi repellat, veritatis, mollitia modi similique voluptas officiis possimus. Voluptate, sapiente! <br>
+                    Lorem ipte qpedita, laudantium eaque id maxime ad praesentium commodi deserunt animi, dolore itaque in ab!
+                </div>
+              </div>
+        </div>
+    </section>
     <!-- ABOUT END -->
 
 
@@ -80,7 +84,7 @@
 
 
     <!-- PROJECTS START -->
-    <section id="projects" class="container">
+    <!-- <section id="projects" class="container">
         <div class="col">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="/img/project1.jpg" alt="Project 1 Image">
@@ -101,7 +105,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- PROJECTS END -->
 
 
